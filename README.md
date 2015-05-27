@@ -5,12 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/Apptient-Segments-SDK.svg?style=flat)](http://cocoapods.org/pods/Apptient-Segments-SDK)
 [![Platform](https://img.shields.io/cocoapods/p/Apptient-Segments-SDK.svg?style=flat)](http://cocoapods.org/pods/Apptient-Segments-SDK)
 
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
 ## Installation
 
 Apptient-Segments-SDK is available through [CocoaPods](http://cocoapods.org). To install
@@ -19,6 +13,27 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "Apptient-Segments-SDK"
 ```
+
+## To Use
+
+Use the `#include <Apptient-Segments-SDK/SegmentsSDK.h>` to your Application Delegate `.m` file. Add in the `application:didFinishLaunchingWithOptions:` the following line:
+
+```objc
+#include <Apptient-Segments-SDK/SegmentsSDK.h>
+
+// some code here
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+	//..    
+	
+	[SegmentsSDK startWithAppId:@"Some-APP-ID"]
+	
+	return YES;
+}
+```
+
+For the basic configuration. Get your App ID from APPTIENT Inc.
 
 ## Author
 
