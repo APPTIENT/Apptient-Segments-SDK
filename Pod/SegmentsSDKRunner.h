@@ -10,8 +10,8 @@
 
 typedef NS_ENUM(NSUInteger, APTSegmentsSDKRunnerVerbosity) {
     APTSegmentsSDKRunnerVerbosityDefault = 0,
-    APTSegmentsSDKRunnerVerbosityErrorsOnly = 0b01,
-    APTSegmentsSDKRunnerVerbosityFull = 0b10
+    APTSegmentsSDKRunnerVerbosityErrorsOnly = 1,
+    APTSegmentsSDKRunnerVerbosityFull = 2
 };
 
 @protocol SegmentsSDKRunnerDelegate <NSObject>
