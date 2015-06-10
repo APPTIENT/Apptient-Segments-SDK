@@ -41,4 +41,4 @@ Bruno Bulic, brbulic@gmail.com
 
 ## License
 
-Apptient-Segments-SDK is available under the MIT license. See the LICENSE file for more info.
+Apptient-Segments-SDK is available under the APPTIENT Inc. [Terms & Conditions](http://www.apptient.com/terms). See LICENSE for details.
